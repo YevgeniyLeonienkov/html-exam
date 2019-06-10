@@ -17,13 +17,14 @@
   position: relative;
   text-align: center;
   width: 200px;
-  height: 231px;
+  height: 287px;
 }
 
 .person img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  margin-bottom: 12px;
 }
 
 /* .person img:hover {
@@ -33,7 +34,8 @@
 } */
 
 .person:hover {
-  background: #EEEEEE;
+  display: block;
+  background-color: #EEEEEE;
   border-radius: 10px;
 }
 
@@ -60,7 +62,7 @@
 }
 
 .extra {
-  visibility: hidden;
+  display: none;
 }
 
 @media (max-width: 999px) {
